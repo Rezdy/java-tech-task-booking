@@ -27,11 +27,13 @@
 - The format of the input date is `yyyy-MM-dd`, e.g. `2021-01-15`, and the format of the input startTime is `HH:mm`, e.g. `09:00`.
 - The input startTime is on the hour and in 24 hour format, e.g. `09:00`, `10:00`, `14:00`.
 - No external data storage is required, and the booking information can be stored in memory.
-- The concurrent booking scenario can be ignored for the purpose of the test, but you are welcomed to put some thought on it.
+- A concurrent booking scenario might occur if two customers try to book the same session at the same time.
+  This concurrent booking scenario can be ignored for the purpose of the test, but you are welcomed to put some thought on it.
 
 ## Things we are interested in
 
-- A buildable maven or gradle project (in your GitHub account)
+- A buildable maven project (you can [fork the repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+  into your GitHub account and make the change)
 - Readable code and clean structure
 - Well tested solution
 
